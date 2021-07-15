@@ -1,0 +1,21 @@
+
+/* -- Gray -- */
+
+* {
+shade1: #2e3440;
+shade2: #3b4252;
+shade3: #434c5e;
+shade4: #4c566a;
+}
+
+/* -- Dark -- */
+* {
+    border:               			    @shade1;
+    border-alt:               		  @shade2;
+    background:                     @shade3;
+    background-alt:                 @shade3;
+    selected:               		    @shade4;
+    foreground:                     #ECEFF4;
+    urgent:                         #DA4453;
+}
+
